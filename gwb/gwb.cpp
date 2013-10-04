@@ -1,7 +1,7 @@
 /* file: gwb.cpp
  *
  * Author: Kai Cao (Supervised by Professor Yap, July 2012)
- *
+ *         Modified by JM Lien 
  * Since Core 2.1.
  * 
  ***************************************************/
