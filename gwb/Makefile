@@ -56,21 +56,8 @@ else
 endif
 
 #--------------------------------------------------------------------
-# MPFR
-#--------------------------------------------------------------------
-
-ifeq ($(PLATFORM),MAC_OS_X)
-	MPFR_DIR = /opt/local
-	MPFR_INCL= -I${MPFR_DIR}/include
-	MPFR_LIB = -L${MPFR_DIR}/lib -lmpfr -lgmp
-else 
-	MPFR_LIB = -lmpfr -lgmp
-endif
-
-
-#--------------------------------------------------------------------
-INCLUDE = -I$(SRC_DIR) $(GL_INCL) $(GLEW_INCL) $(MPFR_INCL)
-LIB = $(GL_LIB) $(GLEW_LIB) $(MPFR_LIB)
+INCLUDE = -I$(SRC_DIR) $(GL_INCL) 
+LIB = $(GL_LIB) 
 
 #--------------------------------------------------------------------
 
