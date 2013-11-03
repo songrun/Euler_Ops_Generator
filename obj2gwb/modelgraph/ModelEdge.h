@@ -39,7 +39,7 @@ public:
 
     void addInNormal(const Vector3d& n){ m_InNormal.push_back(n); }
     Vector3d& getInNormal(int id){ return m_InNormal[id]; }
-    Vector3d& getV(){ return m_V; }
+    Vector3d& getV(){ return m_V; } 
 
     int getID() const { return m_id; }
     //////////////////////////////////////////////////////////////////////

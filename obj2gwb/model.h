@@ -26,7 +26,7 @@ typedef unsigned int uint;
 //a triangle of the model
 struct triangle
 {
-    triangle(){facet_id=0;}
+    triangle(){facet_id=0; }
 
     uint v[3]; //vertex id
     uint e[3]; //edge id
@@ -34,7 +34,7 @@ struct triangle
     Vector3d n; //normal
 
     uint facet_id; //id of the corresponding facet in kway-union.h
-
+	
     //backups
     Vector3d bk_n;
 };

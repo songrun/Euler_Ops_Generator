@@ -68,6 +68,8 @@ bool CModelGraph::doInit(model* m)
                 else m_Tail->setNext(e);
                 m_Tail=e; m_EdgeSize++;
                 e->addFacet(iT);
+                
+                // e->setV()?
                 e->getV()=(m->vertices[b].p-m->vertices[a].p).normalize();
                 e->addInNormal((F.n%e->getV()).normalize());
             } //end of if

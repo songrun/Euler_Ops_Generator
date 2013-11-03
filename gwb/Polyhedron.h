@@ -30,7 +30,7 @@ using namespace std;
 
 
 typedef float matrix[4][4];
-typedef short Id;
+typedef uint Id;
 typedef double Num;
 typedef Num coords[4];
 typedef Num Coords[4];

@@ -1,0 +1,26 @@
+main.o: main.cpp main.h objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h draw.h GL/gli.h \
+  GL/gliDump.h GL/gl2ps.h mathtool/Basic.h model.h
+model.o: model.cpp model.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Vector.h mathtool/Matrix.h \
+  mathtool/Quaternion.h mathtool/Matrix.h objReader.h \
+  modelgraph/ModelGraph.h modelgraph/ModelNode.h modelgraph/ModelEdge.h \
+  model.h
+mathtool/Basic.o: mathtool/Basic.cpp mathtool/Basic.h
+mathtool/Gauss.o: mathtool/Gauss.cpp mathtool/Gauss.h mathtool/Basic.h
+mathtool/Quaternion.o: mathtool/Quaternion.cpp mathtool/Quaternion.h \
+  mathtool/Vector.h mathtool/Basic.h mathtool/Matrix.h
+GL/gl2ps.o: GL/gl2ps.cpp GL/gl2ps.h
+GL/gli.o: GL/gli.cpp GL/gli.h
+GL/gliDump.o: GL/gliDump.cpp GL/gliDump.h GL/gli.h
+GL/gliFont.o: GL/gliFont.cpp GL/gliFont.h GL/gli.h
+modelgraph/ModelEdge.o: modelgraph/ModelEdge.cpp modelgraph/ModelEdge.h \
+  mathtool/Vector.h mathtool/Basic.h
+modelgraph/ModelGraph.o: modelgraph/ModelGraph.cpp \
+  modelgraph/ModelGraph.h modelgraph/ModelNode.h modelgraph/ModelEdge.h \
+  mathtool/Vector.h mathtool/Basic.h model.h mathtool/Point.h \
+  mathtool/Vector.h mathtool/Matrix.h mathtool/Quaternion.h \
+  mathtool/Matrix.h objReader.h
+modelgraph/ModelNode.o: modelgraph/ModelNode.cpp modelgraph/ModelNode.h \
+  modelgraph/ModelEdge.h mathtool/Vector.h mathtool/Basic.h

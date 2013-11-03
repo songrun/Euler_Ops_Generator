@@ -1,0 +1,731 @@
+model.o: model.cpp model.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Vector.h mathtool/Matrix.h \
+  mathtool/Quaternion.h mathtool/Matrix.h objReader.h \
+  modelgraph/ModelGraph.h modelgraph/ModelNode.h modelgraph/ModelEdge.h \
+  model.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+mathtool/Basic.o: mathtool/Basic.cpp mathtool/Basic.h
+mathtool/Gauss.o: mathtool/Gauss.cpp mathtool/Gauss.h mathtool/Basic.h
+mathtool/Quaternion.o: mathtool/Quaternion.cpp mathtool/Quaternion.h \
+  mathtool/Vector.h mathtool/Basic.h mathtool/Matrix.h
+modelgraph/ModelEdge.o: modelgraph/ModelEdge.cpp modelgraph/ModelEdge.h \
+  mathtool/Vector.h mathtool/Basic.h
+modelgraph/ModelGraph.o: modelgraph/ModelGraph.cpp \
+  modelgraph/ModelGraph.h modelgraph/ModelNode.h modelgraph/ModelEdge.h \
+  mathtool/Vector.h mathtool/Basic.h model.h mathtool/Point.h \
+  mathtool/Vector.h mathtool/Matrix.h mathtool/Quaternion.h \
+  mathtool/Matrix.h objReader.h
+modelgraph/ModelNode.o: modelgraph/ModelNode.cpp modelgraph/ModelNode.h \
+  modelgraph/ModelEdge.h mathtool/Vector.h mathtool/Basic.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+model.o: model.cpp model.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Vector.h mathtool/Matrix.h \
+  mathtool/Quaternion.h mathtool/Matrix.h objReader.h \
+  modelgraph/ModelGraph.h modelgraph/ModelNode.h modelgraph/ModelEdge.h \
+  model.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+modelgraph/ModelEdge.o: modelgraph/ModelEdge.cpp modelgraph/ModelEdge.h \
+  mathtool/Vector.h mathtool/Basic.h
+modelgraph/ModelGraph.o: modelgraph/ModelGraph.cpp \
+  modelgraph/ModelGraph.h modelgraph/ModelNode.h modelgraph/ModelEdge.h \
+  mathtool/Vector.h mathtool/Basic.h model.h mathtool/Point.h \
+  mathtool/Vector.h mathtool/Matrix.h mathtool/Quaternion.h \
+  mathtool/Matrix.h objReader.h
+modelgraph/ModelNode.o: modelgraph/ModelNode.cpp modelgraph/ModelNode.h \
+  modelgraph/ModelEdge.h mathtool/Vector.h mathtool/Basic.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+model.o: model.cpp model.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Vector.h mathtool/Matrix.h \
+  mathtool/Quaternion.h mathtool/Matrix.h objReader.h \
+  modelgraph/ModelGraph.h modelgraph/ModelNode.h modelgraph/ModelEdge.h \
+  model.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+modelgraph/ModelGraph.o: modelgraph/ModelGraph.cpp \
+  modelgraph/ModelGraph.h modelgraph/ModelNode.h modelgraph/ModelEdge.h \
+  mathtool/Vector.h mathtool/Basic.h model.h mathtool/Point.h \
+  mathtool/Vector.h mathtool/Matrix.h mathtool/Quaternion.h \
+  mathtool/Matrix.h objReader.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+model.o: model.cpp model.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Vector.h mathtool/Matrix.h \
+  mathtool/Quaternion.h mathtool/Matrix.h objReader.h \
+  modelgraph/ModelGraph.h modelgraph/ModelNode.h modelgraph/ModelEdge.h \
+  model.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+modelgraph/ModelGraph.o: modelgraph/ModelGraph.cpp \
+  modelgraph/ModelGraph.h modelgraph/ModelNode.h modelgraph/ModelEdge.h \
+  mathtool/Vector.h mathtool/Basic.h model.h mathtool/Point.h \
+  mathtool/Vector.h mathtool/Matrix.h mathtool/Quaternion.h \
+  mathtool/Matrix.h objReader.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+model.o: model.cpp model.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Vector.h mathtool/Matrix.h \
+  mathtool/Quaternion.h mathtool/Matrix.h objReader.h \
+  modelgraph/ModelGraph.h modelgraph/ModelNode.h modelgraph/ModelEdge.h \
+  model.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+modelgraph/ModelGraph.o: modelgraph/ModelGraph.cpp \
+  modelgraph/ModelGraph.h modelgraph/ModelNode.h modelgraph/ModelEdge.h \
+  mathtool/Vector.h mathtool/Basic.h model.h mathtool/Point.h \
+  mathtool/Vector.h mathtool/Matrix.h mathtool/Quaternion.h \
+  mathtool/Matrix.h objReader.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
+obj2gwb.o: obj2gwb.cpp objReader.h mathtool/Point.h mathtool/Vector.h \
+  mathtool/Basic.h mathtool/Quaternion.h mathtool/Matrix.h \
+  mathtool/Vector.h model.h mathtool/Matrix.h
