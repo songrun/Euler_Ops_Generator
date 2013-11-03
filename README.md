@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 cs795-pa1
 =========
 
@@ -65,3 +66,9 @@ project
 #5 Verify your results by comparing them visually using gwb and objview
 
 
+=======
+Euler_Ops_Generator
+===================
+
+Convert 3d obj model to Euler Operations
+>>>>>>> 05377386c5fc2d753e9efa85b7d52ecf8db0987b
